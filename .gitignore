@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Experiment tracking (MLflow, local)
+mlruns/
+mlartifacts/
+
+# Local databases
+*.duckdb
+*.duckdb.wal
+
+# Data is never versioned; see data/README.md and docs/sources.md
+data/*
+!data/README.md
+
+# Secrets and OS files
+.env
+.env.*
+.DS_Store
