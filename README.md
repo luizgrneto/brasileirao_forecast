@@ -1,4 +1,4 @@
-# brasileirao-forecast
+# brasileirao_forecast
 
 Probabilistic match forecasts for the Brazilian Série A, with Vasco da Gama as the focus team.
 
@@ -33,8 +33,8 @@ Detalhes de cada fase: [`docs/roadmap.md`](docs/roadmap.md).
 Requires [uv](https://docs.astral.sh/uv/) and Git.
 
 ```bash
-git clone https://github.com/<your-user>/brasileirao-forecast.git
-cd brasileirao-forecast
+git clone https://github.com/<your-user>/brasileirao_forecast.git
+cd brasileirao_forecast
 make setup   # install dependencies
 make hooks   # strip notebook outputs on commit (run once)
 make check   # lint + tests, same as CI

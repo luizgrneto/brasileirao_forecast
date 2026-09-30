@@ -1,5 +1,5 @@
 [project]
-name = "brasileirao-forecast"
+name = "brasileirao_forecast"
 version = "0.1.0"
 description = "Probabilistic match forecasts for the Brazilian Série A, with Vasco da Gama as the focus team."
 readme = "README.md"
