@@ -1,5 +1,5 @@
 ---
-status: proposed
+status: accepted
 ---
 
 # Fontes de dados híbridas: histórico aberto + API oficial para a temporada corrente
@@ -15,3 +15,4 @@ O plano gratuito do football-data.org cobre a Série A brasileira, mas não incl
 
 - Fontes distintas exigem reconciliar nomes e identificadores de clubes.
 - Nenhuma fonte entra no pipeline antes de a licença e os termos de uso serem conferidos e anotados no Registro de fontes (`docs/sources.md`).
+- O football-data.co.uk limita o uso gratuito a pessoas físicas e rejeita bots, scrapers e produtos de treino de dados com IA (conferido em 2026-10-01). Decidimos aceitar o risco e usar o CSV, entendendo o projeto como uso pessoal e educativo, sem fins comerciais. Mitigações: o download é feito à mão, os dados brutos nunca vão para o git, a fonte é citada e a decisão é revista se o projeto ganhar fins comerciais ou se o autor da fonte se opuser. A rotina agendada da Fase 4 não baixa o CSV; como ela obtém o histórico fica para a Fase 4.
